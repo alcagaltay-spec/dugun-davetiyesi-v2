@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Düğün Davetiyesi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+  <div id="welcomeScreen">
+    <div class="welcomeCard">
+      <h3>Ayşe ❤️ Mehmet</h3>
+      <p>Düğün Davetiyesi</p>
+      <div class="welcomeDivider"></div>
+      <button id="enterBtn">
+  Davetiyeyi Aç
+</button>
+<div class="welcomeRings">
+    <img src="IMAGES/rings.png" alt="Altın Alyans">
+</div>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <section class="photoBox">
+      <img src="IMAGES/cift.jpg" class="couplePhoto" alt="Ayşe ve Mehmet">
+    </section>
+
+    <section class="heroText">
+      <h1>
+        Ayşe
+        <span class="heart">❤️</span>
+        Mehmet
+      </h1>
+
+      <p class="inviteText">
+        Bir Ömür Boyu Mutluluğa İlk Adımımızda Sizleri de Aramızda Görmekten Onur Duyarız
+      </p>
+    </section>
+
+    <section class="detailsSection">
+      <h2 class="infoTitle">✦ Düğün Bilgileri ✦</h2>
+
+      <div class="wedding-info">
+        <div class="infoItem">
+          <div class="infoIcon">📅</div>
+          <div class="infoText">
+            <span>Tarih</span>
+            <strong>18 Eylül 2027</strong>
+          </div>
+        </div>
+
+        <div class="infoItem">
+          <div class="infoIcon">🕗</div>
+          <div class="infoText">
+            <span>Saat</span>
+            <strong>19:00</strong>
+          </div>
+        </div>
+
+        <div class="infoItem">
+          <div class="infoIcon">📍</div>
+          <div class="infoText">
+            <span>Mekan</span>
+            <strong>Grand Palace Düğün Salonu</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdownWrapper">
+      <div class="timeBox">
+        <span id="days">000</span>
+        <small>GÜN</small>
+      </div>
+
+      <div class="timeBox">
+        <span id="hours">00</span>
+        <small>SAAT</small>
+      </div>
+
+      <div class="timeBox">
+        <span id="minutes">00</span>
+        <small>DAKİKA</small>
+      </div>
+
+      <div class="timeBox">
+        <span id="seconds">00</span>
+        <small>SANİYE</small>
+      </div>
+    </section>
+
+    <section class="topButtons">
+      <button id="musicBtn" class="fade-item">🎵 Müziği Aç</button>
+      <button id="themeBtn" class="fade-item">🌙 Gece Modu</button>
+
+      <a class="locationBtn fade-item" href="https://www.google.com/maps" target="_blank">
+        📍 Yol Tarifi Al
+      </a>
+    </section>
+
+    <section class="rsvp">
+      <button class="yesBtn fade-item">✅ Katılacağım</button>
+      <button class="noBtn fade-item">❌ Katılamıyorum</button>
+      <p id="rsvpMessage"></p>
+    </section>
+
+    <section class="signature">
+      <div class="line"></div>
+      <p>Sevgi ve Saygılarımızla</p>
+      <div class="line"></div>
+    </section>
+
+    <section class="gallerySection">
+
+
+</section>
+
+    <section class="ringsArea">
+      <img src="IMAGES/rings.png" class="ringsImage" alt="Altın Alyans">
+    </section>
+
+    <audio id="bgMusic" loop>
+      <source src="music.mp3" type="audio/mpeg">
+    </audio>
+
+  </main>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
